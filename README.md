@@ -1,9 +1,9 @@
 Setup Syncthing on Kindle Touch
 ==========================
 
-1. You need jailbreak and [KULA](http://www.mobileread.com/forums/showthread.php?t=203326) first.
+1. You need jailbreak and [KUAL](http://www.mobileread.com/forums/showthread.php?t=203326) first.
 1. Download this [repository](https://github.com/gutenye/syncthing-kindle/archive/master.zip)
-1. Download [syncthing-linux-arm](https://github.com/syncthing/syncthing/releases) and copy `syncthing` binary to `syncthing/bin/`
+1. Download [syncthing-linux-arm 1.19.2](https://github.com/syncthing/syncthing/releases/tag/v1.19.2) and copy `syncthing` binary to `syncthing/bin/` (Using 1.19.2 possibly due to https://github.com/syncthing/syncthing/issues/8325)
 1. Connect Kindle Touch to Your PC
 1. Copy `syncthing/` to `KINDLE-ROOT/extensions/syncthing/`
 1. Select "Open Firewall for Kindle" from KUAL
