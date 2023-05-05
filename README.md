@@ -1,11 +1,12 @@
-Setup Syncthing on Kindle Touch
+Setup Syncthing on Kindle Touch  / Paperwhite
 ==========================
 
 1. You need jailbreak and [KUAL](http://www.mobileread.com/forums/showthread.php?t=203326) first.
 1. Download this [repository](https://github.com/gutenye/syncthing-kindle/archive/master.zip)
 1. Download [syncthing-linux-arm 1.19.2](https://github.com/syncthing/syncthing/releases/tag/v1.19.2) and copy `syncthing` binary to `syncthing/bin/`  
     - (Using 1.19.2 possibly due to https://github.com/syncthing/syncthing/issues/8325)
-1. Connect Kindle Touch to Your PC
+    - Any version above 1.19.2 uses a version of Golang that [does not support kernel 2.6.31](https://github.com/golang/go/wiki/MinimumRequirements#linux)
+1. Connect Kindle Touch / Paperwhite to Your PC
 1. Copy `syncthing/` to `KINDLE-ROOT/extensions/syncthing/`
 1. Select "Open ALL Firewall ports" from KUAL
 1. Select "Start Syncthing INSECURE Admin" from KUAL
